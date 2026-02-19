@@ -7,7 +7,7 @@ decrement:()=>void;
 }
 
 export const useCounter=create<CounterStore>((set)=>({
-    count:0,
+    count:10,
 
 
     increment:()=>set(state=>({count:state.count+1})),
